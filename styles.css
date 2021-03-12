@@ -1,0 +1,184 @@
+body {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  padding-top: 55px;
+
+}
+.imagen {
+  border-radius: 50%;
+
+  border: 1px solid #dde2ed;
+}
+.head {
+  margin-top: 35px;
+height: 55px;
+}
+.heading {
+display: flex;
+justify-content: center;
+color: #c7c7c7;
+}
+.start {
+  background-color: #000;
+  padding-top: 3px;
+}
+.punckt {
+  color: #dde2ed;
+}
+.punckt1 {
+  color: #5a72a3;
+}
+
+.introduction{
+  margin-top: 70px;
+  margin-left: 90px;
+  margin-right: 90px;
+  border-radius: 90px;
+text-align: center;
+
+}
+.text{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.info {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.mg-button {
+  margin-top: 25px;
+}
+.mg-button1 {
+  margin-top: 90px;
+}
+.body1{
+  height: 380px;
+  width: 350px;
+}
+.body2 {
+  height: 500px;
+  width: 350px;
+}
+.card-images {
+  height: 300px;
+}
+footer {
+  padding-top: 50px;
+}
+.pagination {
+    display: inline-block;
+    align: center;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #000;
+    color: white;
+    border: 1px solid #000;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.center {
+    text-align: center;
+}
+#header {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+
+border-radius: 50%;
+border: 2px solid #000;
+transition: transform 1s ease-out;
+width: 190px;
+height: 190px;
+}
+
+.header:hover {
+  transform: scale(1.1) rotate(10deg);
+
+}
+.header-imagen{
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #000;
+  width: 190px;
+  height: 190px;
+}
+.context-pg2 {
+margin-top: 50px;
+}
+#name {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.name {
+font-family: 'Satisfy', cursive;
+  background-color: #000;
+  border-radius: 10px;
+    border: 1px solid #fff;
+  color: #fff;
+  transition: transform 0.6s ease-out;
+}
+.name:hover {
+  transform: skewX(-10deg);
+}
+.font {
+  font-family: 'Satisfy', cursive;
+}
+#triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 300px solid transparent;
+	border-right: 300px solid transparent;
+	border-bottom: 250px solid;
+  color: #d1d1d1;
+  transition: transform 2s ease, background-color 1s ease-out, color 1s ease-out;
+}
+.figure {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+
+}
+.card-body:hover {
+
+}
+.card-final {
+width: 70%;
+height: 100%;
+
+}
+.card-up {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-center  {
+  text-align: center;
+}
+.card-home-text{
+  font-size: 18pt;
+  padding: 10px;
+}
+
+.container {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
